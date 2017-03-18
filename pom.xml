@@ -7,6 +7,49 @@
   <version>1.0-SNAPSHOT</version>
   <name>cylDemo Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <!--spring  的版本-->
+    <spring-framework.version>4.3.6.RELEASE</spring-framework.version>
+
+  </properties>
+<dependencies>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>${spring-framework.version}</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>${spring-framework.version}</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>${spring-framework.version}</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-orm</artifactId>
+    <version>${spring-framework.version}</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>${spring-framework.version}</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>${spring-framework.version}</version>
+  </dependency>
+</dependencies>
   <build>
     <finalName>cylDemo</finalName>
   </build>
